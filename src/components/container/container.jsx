@@ -29,7 +29,7 @@ class Container extends React.Component{
                 {
                   title: 'womens',
                   imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
-                  size: 'large',
+                  size: 'x-large',
                   id: 4,
                   linkUrl: 'shop/womens'
                 },
