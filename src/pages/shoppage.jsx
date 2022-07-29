@@ -17,6 +17,8 @@ class ShopPage extends React.Component
         const collections = this.state.SHOP_PAGE;
         console.log(collections[0]);
         return(
+            <>
+            <h1>Collections</h1>
             <div className="shopPage">
                 {
                     collections
@@ -26,7 +28,7 @@ class ShopPage extends React.Component
                         );
                     })
                 }
-            </div>
+            </div></>
         );
 
     }
